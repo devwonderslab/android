@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ViewMatchHorizontalWrapVertical.Login">
+        <item name="android:hint">@string/prompt_login</item>
+        <item name="android:inputType">textAutoComplete</item>
+        <item name="android:textSize">@dimen/font_size_primary_text</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ViewMatchHorizontalWrapVertical.Password">
+        <item name="android:hint">@string/prompt_password</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textSize">@dimen/font_size_primary_text</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ButtonLogInStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">?attr/colorAccent</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:paddingTop">@dimen/padding_vertical_login_label</item>
+        <item name="android:paddingBottom">@dimen/padding_vertical_login_label</item>
+        <item name="android:textSize">@dimen/font_size_login_label</item>
+    </style>
+
+    <style name="CompanyLogoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:scaleX">@dimen/logo_scale</item>
+        <item name="android:scaleY">@dimen/logo_scale</item>
+    </style>
+</resources>
